@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
+    <title>Document</title>
+</head>
+<body>
+    <h2 class="heading landing-heading">LANDING PAGE</h2>
+    <ul class="landing-page">
+    <li class="landing-item">Nav Bar</li>
+        <ul><li>About Us</li></ul>
+        <ul><li>Contact Us</li></ul>
+        <ul><li>Pricing?</li></ul>
+        <ul><li>Login/Sign Up</li></ul>
+        <ul><li>User Page (upon signing in)</li></ul>
+        <ul><li>View School (upon admin signing in)</li></ul>
+        <ul><li>View Class (upon teacher signing in)</li></ul>
+        <ul><li>View Student (upon parent signing in)</li></ul>
+    <li class="landing-item">Main Content</li>
+        <ul><li>Brief explanation of Response to Intervention and how it is beneficial to the success of students</li></ul>
+    <li class="landing-item">Footer</li>
+        <ul><li>Include footer with links to nav bar items</li></ul>
+        <ul><li>Include more contact information</li></ul>
+        <ul><li>Include copyright</li></ul>
+    </ul>
+
+    <h2 class="heading nav-heading">NAV BAR</h2>
+    <ul class="nav-page">
+    <li class="nav-item">About Us</li>
+        <ul><li>Add a page with information on what started Dean's List and what the overall objective of the application is</li></ul>  
+    <li class="nav-item">Contact Us</li>
+        <ul>
+        <li>Create a form that will allow the client to send an email to the linked email address</li>
+            <ul><li>Include a required name</li></ul>
+            <ul><li>Include a required email address</li></ul>
+            <ul><li>Include a required phone number</li></ul>
+            <ul><li>Include a message box for more information</li></ul>
+        </ul>
+        <li class="nav-item">Pricing</li>
+        <ul><li>Add a page with pricing information</li></ul> 
+        <li class="nav-item">Login/Sign Up</li>
+        <ul>
+            <li>Add event listener that brings up a login/Sign up form for the client to enter their login information or takes the client to the contact form to sign up</li>
+        <ul><li>For now the clients will be signed up manually by myself when requesting access through the contact form</li></ul>    
+        </ul> 
+        <li class="nav-item">User Pages</li>
+        <ul>
+            <li>Each user button will take them to their designated profile page</li>
+            <ul><li>Each user will have the option to view their school/class/student depending on the type of profile</li></ul>
+        </ul> 
+    </ul>
+
+    <h2 class="heading user-heading">USER PAGES</h2>
+    <ul class="user-pages">
+    <li class="user">Admin page</li>
+    <ul>
+        <li>Super capabilities</li>
+        <li>Able to access all student data</li>
+        <li>Capable of adding/editing/removing teachers/students/parents</li>
+        <li>Able to create teacher groups</li>
+        <li>Can decide what student information is public and private throughout groups</li>
+        <li>Able to view data in an "overall" graph</li>
+    </ul>
+    <li class="user">Teacher Page</li>
+    <ul>
+        <li>Able to edit teacher(self) information</li>
+        <li>Able to view (but not edit) student information that is made public within teacher groups</li>
+        <li>Able to add/edit/remove classes/students</li>
+        <li>Able to add/edit/remove assignments/assessments</li>
+        <ul><li>Able to add an overarching "Target" to the assessments that will help determine which content areas students are most successful in</li></ul>
+        <ul><li>Prompted to select grading scale and content area when creating assignment</li></ul>
+        <ul><li>Each assigned question will have a "Target" that will determine which groups the students are placed in</li></ul>
+        <ul><li>Students will be placed in groups based on common areas of deficiencies or strengths with teachers that showed the most success in teaching the content</li></ul>
+        <li>Able to input and edit student grades</li>
+        <li>Able to input student DRA/Lexile levels</li>
+        <ul><li>Students can be grouped by level</li></ul>
+        <ul><li>Goals can be set with percentage of success</li></ul>
+        <ul><li>Page will show how many students until goal is met</li></ul>
+    </ul>
+        <li class="user">Parent Page</li>
+        <ul>
+        <li>Able to view individual student pages with scores</li>
+        <li>Able to make comments and message the student's teacher if capabilities are enabled</li>
+        <li>Can edit personal information</li>
+            <ul><li>Name</li></ul>
+            <ul><li>Address</li></ul>
+            <ul><li>Phone Number</li></ul>
+        <li>Able to view student areas of definciencies and areas of strength</li>
+        </ul>
+        <li class="user">Student Page</li>
+        <ul>
+        <li>Able to view individual student pages with scores and areas of growth/decline</li>
+        <li>Students will have the ability to print certificates when successful in certain content areas on ASSESSMENTS</li>
+        </ul>
+    </ul>
+
+    <h2 class="heading color-heading">COLOR/FONT SCHEME</h2>
+    <ul class="color-page">
+    
+    <li class="color-element">Body</li>
+        <ul><li>background-color: #0F0E50;</li></ul>
+        <ul><li>font-family: Arial, sans-serif;</li></ul>
+        <ul><li>color: #24305E;</li></ul>
+    
+    <li class="color-element">Container</li>
+        <ul><li>background-color: #A8D0E6;</li></ul>
+    
+        <div id="body-example">
+        <div id="container-example">Body & Container Example</div>
+        </div>
+    
+    <li class="color-element">Button</li>
+        <ul><li>background-color: #374785;</li></ul>
+        <ul><li>color: #FFFFFE;</li></ul>
+        <ul>
+        <li style="font-weight: bold">:hover</li>
+            <ul><li>background-color: #0F0E50;</li></ul>
+            <ul><li>color: #FFFFFE;</li></ul>
+        </ul>
+        <button id="button-example">Example</button>
+    
+    <li class="color-element">Nav Button</li>
+        <ul><li>color: #24305E;</li></ul>
+        <ul>
+        <li style="font-weight: bold">:hover</li>
+            <ul><li>background-color: #374785;</li></ul>
+            <ul><li>color: #FFFFFE;</li></ul>
+        </ul>
+        <button id="nav-button-example">Example</button>
+    
+        <li class="color-element">Sign In Button</li>
+        <ul><li>background-color: #A8D0E6;</li></ul>
+        <ul><li>color: #24305E</li></ul>
+        <ul>
+        <li style="font-weight: bold">:hover</li>
+            <ul><li>background-color: #374785;</li></ul>
+            <ul><li>color: #FFFFFE;</li></ul>
+        </ul>
+        <button id="signin-button-example">Example</button>
+    
+    <li class="color-element">Headings</li>
+        <ul><li>color: #0F0E50;</li></ul>
+        <ul><li>font-family: Arial, Helvetica, sans-serif;</li></ul>
+        <ul><li>font-size: 2rem;</li></ul>
+        <ul><li>font-weight: 300;</li></ul>
+        <ul><li>text-transform: uppercase;</li></ul>
+        <ul>
+        <li style="font-weight: bold;">Span</li>
+        <ul><li>color: #374785;</li></ul>
+        <ul><li>text-shadow: -1px -1px 0 #FFFFFE, 1px -1px 0 #FFFFFE, -1px 1px 0 #FFFFFE, 1px 1px 0 #FFFFFE;</li></ul>
+        <ul><li>letter-spacing: 3px;</li></ul>
+        <ul><li>font-weight: 600;</li></ul>
+        <ul><li>font-size: 3rem;</li></ul>
+        </ul>
+        <h1 id="heading-example">Example <span>Heading</span></h1>
+    
+    <li class="color-element">Nav Bar</li>
+        <ul><li>background-color: #FFFFFE;</li></ul>
+        <ul><li>color: #24305E;</li></ul>
+    
+    <li class="color-element">Footer</li>
+        <ul><li>background-color: #FFFFFE;</li></ul>
+        <ul><li>color: #24305E;</li></ul>
+    </ul>
+
+    <div id="nav-footer-example">Nav Bar and Footer Example</div>
+</body>
+</html>
